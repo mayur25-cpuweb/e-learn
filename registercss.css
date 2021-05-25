@@ -1,0 +1,132 @@
+.card-img-top1{
+  width: 150px;
+}
+.cardimginput{
+  
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  width: 12rem;
+  margin-top:3.6%;
+  height: auto;
+}
+.card1{
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    border-style: outset;
+}
+form{
+  opacity:none;
+  text-decoration: solid;
+  font-size: bold;
+  text-transform: uppercase;
+}
+input{
+  text-decoration: solid;
+  border-style: outset;
+  border-style: none none solid none;
+  border-color: #011627;
+ 
+  width: 90%;
+}
+textarea {
+  text-decoration: solid;
+  border-style: outset;
+   border-style: none none solid none;
+  border-color: #011627;
+  width: 70%;
+ 
+}
+.radiobtn{
+ width: 25px;
+ box-shadow: none;
+}
+.submitbtn{
+  width: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-color:#011627;
+  color: white;
+  border-radius: 20px;
+  margin-left: 25%;
+  border-style:solid;
+  font-weight: bold;
+  border-color: #011627;
+  font-size: 12px;
+  padding: 10px 30px 10px 30px;
+}
+.submitbtn:hover{
+   background-color: white;
+  color:#011627;
+  border-color: #011627;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+
+  .card1{
+      margin: 2px;
+  }
+  .cardimginput{
+      margin-bottom:0;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+ .submitbtn{
+  margin:auto;
+ }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .card1{
+   margin-left: 15%;
+  }
+  .cardimginput{
+      margin-bottom:0%;
+  }
+  .statediv{
+  display: block;
+}
+
+
+}
+@media screen and (min-width: 1025px) {
+
+  .card1{
+margin-left: 15%;
+  }
+  .cardimginput{
+      margin-bottom:auto;
+
+          }
+  .cardfb{
+      margin-bottom: auto; 
+
+  }        
+
+}
+.city{
+  width: 30%;
+}
+.state{
+  width: 30%;
+}
+.statediv{
+  margin-left: 4%;
+  display: inline;
+}
+body{
+  background-image: url(https://image.freepik.com/free-vector/gradient-geometric-background_52683-54199.jpg); 
+  background-attachment: fixed; background-size: cover; background-position: center center;
+}
+.cardfb{
+   text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  width: 90%;
+  margin-top:3.6%;
+margin-bottom: 2%;
+}
+.hero{
+font-weight: bold;
+opacity: 0.6;
+}

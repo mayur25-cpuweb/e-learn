@@ -1,0 +1,125 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #011627;
+}
+#container1{
+    height: 500px;
+    width: 800px;
+    background-color:white;
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    border-style:solid;
+    border-color: #011627;
+    border-radius: 3px;
+}
+#heading{
+    text-transform: uppercase;
+    padding-right: 140px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color:#011627;
+    font-size: 35px;
+    font-weight: 500;
+}
+#container2{
+    margin-top: 30px;
+    padding-left:;
+    float: right;
+   
+ 
+}
+.name{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:black;
+    padding-bottom: 20px;
+    background: none;
+    border-style: none none solid none;
+    padding-right: 20px;
+ 
+    border-color: #011627;
+    font-size: 12px;
+}
+.email{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:black;
+    padding-bottom: 20px;
+    background: none;
+    border-style: none none solid none;
+    padding-right: 185px;
+    border-color: #011627;
+    font-size: 12px;
+   
+
+}
+.tel{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:black;
+    padding-bottom: 20px;
+    background: none;
+    border-style: none none solid none;
+    padding-right: 185px;
+    border-color: #011627;
+    font-size: 12px;
+
+}
+.rad{
+    padding-top: 20px;
+    margin-top: 10px;
+    display: inline;
+}
+#gen{
+    text-transform: uppercase;
+    color: #011627;
+}
+.submit{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color:#011627;
+    color: white;
+    border-radius: 20px;
+    margin-left: 100px;
+    border-style:solid;
+    font-weight: bold;
+ 
+    border-color: #011627;
+    font-size: 12px;
+    padding: 10px 30px 10px 30px;
+}
+.submit:hover{
+    background-color: white;
+    color:#011627;
+    border-color: #011627;
+    cursor: pointer;
+    font-weight: bold;
+}
+#container3{
+   
+    float: left;
+    padding: 90px 0px 0px 90px;
+ 
+}
+#heading2{
+    text-transform: uppercase;
+    padding-right: 0px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color:#011627;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+span{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#011627;
+    font-size: 25px;
+    font-weight: 700;
+
+}
